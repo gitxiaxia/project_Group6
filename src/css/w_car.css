@@ -1,0 +1,242 @@
+.car_box {
+	background: #eee;
+}
+
+.w_car_listbox {
+	background: #efe;
+}
+
+.car_titel {
+	height: 60px;
+	border-bottom: 2px solid #000;
+	padding: 20px 0 0 20px;
+}
+
+.car_titel>span {
+	padding-right: 15px;
+}
+
+.car_titel>span>em {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.car_listtitel {
+	height: 34px;
+	background: url("../images/car_background.png") repeat-x;
+	padding-left: 10px;
+}
+
+.car_listtitel span {
+	vertical-align: middle;
+	line-height: 34px;
+}
+
+.car_listtitel span:nth-of-type(1) {
+	display: inline-block;
+	height: 34px;
+	width: 106px;
+}
+
+.car_listtitel span:nth-of-type(2) {
+	display: inline-block;
+	height: 34px;
+	width: 390px;
+}
+
+.car_listtitel span:nth-of-type(3) {
+	display: inline-block;
+	height: 34px;
+	width: 100px;
+}
+
+.car_listtitel span:nth-of-type(4) {
+	display: inline-block;
+	height: 34px;
+	width: 120px;
+}
+
+.car_listtitel span:nth-of-type(5) {
+	display: inline-block;
+	height: 34px;
+	width: 160px;
+}
+
+.car_listtitel span:nth-of-type(6) {
+	display: inline-block;
+	height: 34px;
+	width: 60px;
+}
+
+.car_paylist {
+	border: 1px solid #d9d9d9;
+	overflow-y: auto;
+}
+
+.car_paylist li {
+	overflow: hidden;
+	border-bottom: 1px solid #d9d9d9;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.car_paylist>li>div {
+	float: left;
+	height: 88px;
+}
+
+.car_paylist li>div:nth-of-type(1) {
+	width: 106px;
+}
+
+.car_paylist li>div:nth-of-type(2) {
+	width: 400px;
+}
+
+.car_paylist li>div:nth-of-type(3) {
+	width: 100px;
+}
+
+.car_paylist li>div:nth-of-type(4) {
+	width: 120px;
+}
+
+.car_paylist li>div:nth-of-type(5) {
+	width: 160px;
+}
+
+.car_paylist li>div:nth-of-type(6) {
+	width: 60px;
+}
+
+
+/*出现滚动条*/
+
+.ulsecoll {
+	height: 500px;
+	overflow-y: auto;
+}
+
+.car_total {
+	height: 100px;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+	padding: 20px 34px 0 0;
+	text-align: right;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+.car_total p {
+	height: 24px;
+	padding-bottom: 5px;
+}
+
+.continue {
+	background: none;
+}
+
+.total_num {
+	color: #e00;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.total_pay {
+	display: block;
+	width: 185px;
+	height: 32px;
+	background: #FF4500;
+	color: #fff;
+	border-radius: 15px 0 0 15px;
+}
+
+
+/*商品数量按钮*/
+
+.goodsnumber {
+	font-size: 0px;
+}
+
+.goodsnumber input {
+	display: inline-block;
+	height: 20px;
+	background: #fff;
+}
+
+.subtract_btn {
+	width: 10px;
+	border: 1px solid #ddd;
+}
+
+.goodsnumber .num_import {
+	width: 30px;
+	height: 18px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+}
+
+.add_btn {
+	width: 10px;
+	border: 1px solid #ddd;
+}
+
+
+/*删除按钮*/
+
+.car_delbtn {
+	display: block;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #333;
+	margin: 20px auto;
+}
+
+
+/*热卖部分*/
+
+.w_bottom_hot h4 {
+	height: 46px;
+	padding-left: 10px;
+}
+
+.hot_goodsbox {
+	height: 220px;
+	border-bottom: 2px solid #222;
+	overflow: hidden;
+}
+
+.hot_items {
+	overflow: hidden;
+	width: 4444px;
+}
+
+.hot_items li {
+	float: left;
+	width: 120px;
+	height: 200px;
+	word-break: break-all;
+	padding: 0 20px;
+	line-height: 18px;
+}
+
+.hot_items li p:nth-of-type(1) {
+	width: 120px;
+	height: 120px;
+	text-align: center;
+}
+
+.hot_items li p:nth-of-type(3) span {
+	margin-right: 10px;
+}
+
+.hot_items li button {
+	display: block;
+	width: 72px;
+	height: 18px;
+	background: #D2691E;
+	color: #fff;
+	border-radius: 9px 0 0 9px;
+	margin-top: 5px;
+}

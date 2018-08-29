@@ -1,0 +1,155 @@
+/*底部 ====【a-z部分样式】*/
+
+#Xia_a_z .container {
+	padding-top: 24px;
+	padding-bottom: 12px;
+	font-size: 12px;
+	line-height: 12px;
+	color: #333;
+}
+
+#Xia_a_z ul li {
+	float: left;
+}
+
+#Xia_a_z span {
+	padding-left: 5px;
+}
+
+#Xia_a_z ul li a {
+	padding: 0 11px 0 12px;
+	border-right: 1px solid #333;
+	color: #333;
+}
+
+#Xia_a_z ul li:last-child a {
+	border: 0 none;
+}
+
+
+/*底部 ====【a-z部分样式END】*/
+
+
+/*底部 ====连接部分样式*/
+
+#Xia_links {
+	margin-bottom: 30px;
+}
+
+#Xia_links .container {
+	border-top: 2px solid #5A5A5A;
+}
+
+#Xia_links .bot {
+	padding: 10px 17px 0 5px;
+}
+
+#Xia_links .bot .left dl:last-child dd a {
+	display: block;
+	margin-bottom: 6px;
+}
+
+#Xia_links .bot .left dl {
+	float: left;
+	width: 135px;
+	margin-right: 45px;
+}
+
+#Xia_links .bot .left dl dt {
+	font-size: 12px;
+	line-height: 20px;
+	color: #333;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+#Xia_links .bot .left dl dd a {
+	font-size: 12px;
+	line-height: 18px;
+	color: #333;
+}
+
+#Xia_links .bot .left dl dd a .dd_left {
+	width: 18px;
+	height: 18px;
+	margin-right: 4px;
+}
+
+#Xia_links .dd_left {
+	background-image: url('../images/links_f.png');
+}
+
+#Xia_links .dd_left {
+	background-image: url('../images/links_l.png');
+}
+
+#Xia_links .dd_left {
+	background-image: url('../images/links_b.png');
+}
+
+#Xia_links .dd_right p:first-child {
+	font-size: 12px;
+	line-height: 12px;
+	color: #D2691E;
+}
+
+#Xia_links .dd_right p:last-child {
+	font-size: 12px;
+	line-height: 12px;
+}
+
+#Xia_links .bot .right {
+	width: 225px;
+	border-left: 1px solid #ccc;
+}
+
+#Xia_links .bot .right .ri_left {
+	width: 40px;
+	height: 84px;
+	background: url('../images/links_right_1.png');
+}
+
+#Xia_links .bot .right .ri_right {
+	width: 182px;
+}
+
+#Xia_links .bot .right .ri_right p {
+	font-size: 10px;
+	line-height: 14px;
+}
+
+#Xia_links .bot .right .ri_right .box {
+	width: 172px;
+	height: 22px;
+	border: 1px solid #5A5A5A;
+}
+
+
+/*底部 ====连接部分样式END*/
+
+
+/*底部logo*/
+
+#Xia_foot {
+	padding-top: 5px;
+	padding-bottom: 25px;
+}
+
+#Xia_foot .top {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+#Xia_foot p {
+	font-size: 10px;
+	line-height: 10px;
+	text-align: center;
+}
+
+#Xia_foot p span {
+	color: #f40;
+	margin-right: 14px;
+}
+
+
+/*底部logo==END*/

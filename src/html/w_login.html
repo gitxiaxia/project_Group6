@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>登录注册</title>
+		<!--基本-->
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<!--页面-->
+		<link rel="stylesheet" type="text/css" href="../css/w_login.css" />
+		<!--头部-->
+		<link rel="stylesheet" type="text/css" href="../css/x_com_head.css" />
+		<!--尾部-->
+		<link rel="stylesheet" type="text/css" href="../css/x_com_footer.css" />
+		<!--未知-->
+		<link rel="stylesheet" type="text/css" href="../css/fjp_font/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="../css/fjp_font/ccb_font1/iconfont.css" />
+
+	</head>
+
+	<body>
+
+		<!--js写入头部页面-->
+		<div id="com_head"></div>
+
+		<div class="w_loginbox">
+			<div class="container">
+				<div class="w_logintitle">
+					<h2>Sign In or Register a New Account</h2>
+				</div>
+				<div class="t_padding_24 f12">
+					<div class="w_login fl">
+						<label for="">Email AddWord</label><br />
+						<input type="text" class="usersname" /><br />
+						<label for="">PassWord</label><br />
+						<input type="text" class="password" /><br />
+						<p>
+							<input type="text" placeholder="验证码" class="logincode" />
+							<span class="w_code"></span>
+						</p>
+						<button class="w_loginbtn">Sign In</button>
+					</div>
+					<div class="w_register fl">
+						<div class="w_usersVip">
+							<p class="w_vip1">EXCLUSIVE VIP OFFER for every new member!</p>
+							<p class="w_vip2"><span>10%</span>and <span>5%</span>and <span>2%</span> OFF
+								<a href="#">details&gt;&gt;</a>
+							</p>
+						</div>
+						<div>
+							<label for="">Email AddWord</label><br />
+							<input class="w_regTxt" type="text" /><br />
+							<label for="">PassWord</label><br />
+							<input class="w_regTxt" type="text" /><br /><label for="">Confirm PassWord</label><br />
+							<input class="w_regTxt" type="text" /><br />
+							<label for=""> <input type="checkbox" /><span class="w_regCheck">&nbsp;Get Peridic updates</span></label><br />
+							<p class="w_regCheckHint">It will be an email worth reading, And it won't come too often</p>
+							<label for=""><input type="checkbox" />&nbsp;I agree to tidemalls.com <a href="#">Terms of Use</a></label><br />
+							<button class="w_loginbtn w_registerbtn">Register</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--js动态写入底部HTML结构-->
+		<div id="com_footer"></div>
+
+		<!-- JQ -->
+		<script src="../js/jquery-3.2.1.js">
+		</script>
+		<!--公共-->
+		<script src="../js/common.js"></script>
+		<!--页面-->
+		<script src="../js/w_login.js"></script>
+		<!--js无效？-->
+		<script src="../js/x_con_head.js">
+		</script>
+
+	</body>
+
+</html>

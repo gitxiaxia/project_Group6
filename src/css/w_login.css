@@ -1,0 +1,124 @@
+.top {
+	width: 100%;
+	height: 100px;
+	background: #ddd;
+}
+
+.bottom {
+	width: 100%;
+	height: 100px;
+	background: #eee;
+}
+
+.w_loginbox {
+	height: 470px;
+	width: 100%;
+}
+
+.w_logintitle {
+	height: 52px;
+	border-bottom: 2px solid #111;
+	line-height: 60px;
+}
+
+.w_logintitle>h2 {
+	font-weight: bold;
+}
+
+.w_login {
+	width: 420px;
+	height: 366px;
+	padding: 24px 0 0 30px;
+	border-right: 1px dotted #666;
+}
+
+.w_login input {
+	display: block;
+	width: 340px;
+	height: 36px;
+	border: 1px solid #ddd;
+}
+
+.w_login p {
+	overflow: hidden;
+}
+
+.w_login p input {
+	float: left;
+	width: 100px;
+	margin-right: 10px;
+	text-align: center;
+	line-height: 36px;
+	font-size: 16px;
+}
+
+.w_code {
+	display: block;
+	float: left;
+	width: 100px;
+	height: 36px;
+	border: 1px solid #ddd;
+	text-align: center;
+	line-height: 36px;
+	font-size: 20px;
+}
+
+.w_loginbtn {
+	display: block;
+	width: 66px;
+	height: 36px;
+	background: #FA7712;
+	line-height: 16px;
+	margin-top: 20px;
+}
+
+.w_register {
+	width: 430px;
+	height: 390px;
+	padding: 24px 0 0 70px;
+}
+
+.w_usersVip {
+	width: 342px;
+	height: 40px;
+	border: 1px dotted #F88D1B;
+	background: #FFFFCC;
+	margin-bottom: 24px;
+}
+
+.w_vip1 {
+	color: #f00;
+}
+
+.w_vip2 {
+	color: #3f0;
+}
+
+.w_vip2 span {
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0 4px;
+}
+
+.w_vip2 a {
+	color: #555;
+	margin-left: 80px;
+	text-decoration: underline;
+}
+
+.w_regTxt {
+	display: block;
+	width: 342px;
+	height: 30px;
+	border: 1px solid #ddd;
+}
+
+.w_regCheck {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.w_regCheckHint {
+	padding-left: 10px;
+	color: #999;
+}
